@@ -208,3 +208,141 @@
 // }   
 
 // }
+
+// task 15
+// var a = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+// for (var i = 0 ; i < a.length ;i++){
+//     var OneLiner = ""
+//     for (var j = 0 ; j < a[i].length ; j++){
+//         OneLiner += a[i][j];
+//     }  
+//     console.log(OneLiner)
+// }
+
+
+
+// task 16
+// var a = prompt("Enter number")
+// for (i = a ; i>= 0; i -= 0.5){
+// document.write(i + "   ")
+// }
+
+
+// task 17 
+
+// for ( var i =0 ; i<= 20 ; i++){
+//     if (i % 2 === 0 ){
+//         document.write (i + " is even"+ "<br>")
+//     }
+//     else{
+//         document.write (i + " is odd"+"<br>")
+//     }
+// }
+
+
+// task 18 
+
+// var product = 1;
+
+// for (var i = 1; i <= 7; i++) {
+//     // i = 0
+//     // 0<7 
+//   if (i % 2 !== 0) {
+//     //  1 is not equal  to 0 after taking  %  of 1 and 2 so it will multiply by product (1x1) and become 1 
+//         //  3 is not equal  to 0 after taking  %  of 3 and 2 so it will multiply by product (1x3) and become 3  
+//                 //  5 is not equal  to 0 after taking  %  of 5 and 2 so it will multiply by product (3x5) and become 15
+//                   //  7 is not equal  to 0 after taking  %  of 7 and 2 so it will multiply by product (15x7) and become 105
+//     product *= i;
+//     // (1x1)  (iteration 1)
+//     // (1x3)   (iteration 3)
+//     // (3x5)   (iteration 5)
+//     // (15x7)   (iteration 7)
+//   }
+// }
+
+// console.log("The product of the odd integers from 1 to 7 is: " + product);
+
+
+// now perfect code
+
+// var product = 1
+// for (var i =1 ; i<= 7; i++){
+//     if (i % 2 !== 0){
+//         product *= i 
+//     }
+
+// }
+// document.write("The product of the odd integers from 1 to 7 is: " + product)
+
+
+
+// task 19
+// var a = parseInt(prompt("Enter numbers"))
+// if (!isNaN(a) && a > 0){
+// for (var i = a; i>=1 ;  i--){
+//     var plus = ""
+//     for (var j = 1 ; j<=i ; j++){
+//         plus +="*"
+//     }
+
+//     console.log(plus)
+// }
+// }
+
+// else{
+//     console.log("Invalid input. Please enter a positive number.");
+// }
+
+// task 20
+// part 1
+// var numberOfLines = parseInt(prompt("Enter the number of lines:"));
+
+// if (!isNaN(numberOfLines) && numberOfLines > 0) {
+//   for (var i = 1; i <= numberOfLines; i++) {
+//     var line = '*****';
+//     console.log(line);
+//   }
+// } else {
+//   console.log("Invalid input. Please enter a positive number.");
+// }
+
+// part 2
+
+// var a = parseInt(prompt("Enter numbers"))
+// if (!isNaN(a) && a > 0){
+// for (var i = a; i>=1 ;  i--){
+//     var plus = ""
+//     for (var j = 1 ; j<=i ; j++){
+//         plus +="*"
+//     }
+
+//     console.log(plus)
+// }
+// }
+
+// else{
+//     console.log("Invalid input. Please enter a positive number.");
+// }
+
+
+// part 3
+
+// var a = parseInt(prompt("Enter numbers"))
+// if (!isNaN(a) && a > 0){
+//     for (var i = 1 ; i<=a; i++){
+//         var plus = ""
+//         for (var j = 1 ; j<=i ; j++){
+//             plus += "*"
+//         }
+//         console.log(plus)
+//     }
+// }
+// else{
+//     console.log("Invalid input. Please enter a positive number.");
+// }
+
+
